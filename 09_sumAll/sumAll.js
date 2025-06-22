@@ -1,8 +1,8 @@
 const sumAll = function(num1, num2) {
     let nums = [];
-    /* if (num1.typeOf() != number || num2.typeOf() != number) {
+    if (Number.isInteger(num1) != true || Number.isInteger(num2) != true) {
         return "ERROR";
-    } */
+    } 
     if (num1 < 0 || num2 < 0) {
         return "ERROR";
     }
